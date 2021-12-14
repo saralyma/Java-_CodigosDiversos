@@ -1,0 +1,24 @@
+package javaapplication25;
+
+/**
+ *
+ * @Sara lyma 
+ */
+public class JavaApplication25 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args)
+    {
+        System.out.print("welcome to ");
+        System.out.println("Java programação");
+        System.out.println("Benvindo\npara\nJAVA\nProgramacao");
+        // strings divididas
+        System.out.printf("%s%n%s%n" , "Benvindo ao" , "programação Java" );
+        // formatacao de string
+        
+        
+    }
+    
+}

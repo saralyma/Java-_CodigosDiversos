@@ -1,0 +1,37 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication26;
+import java.util.Scanner;   //progrma utiliza a classa scanner 
+/**
+ *
+ * @Programa para adição que insere dois numeros e exibe a soma deles 
+ */
+public class JavaApplication26 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner( System.in);
+        int number1 ; // primeiro numero a somar
+        int number2 ;  // segundo nur a somar
+        int sum;      // soma de numero1 e numero 2
+        int media;
+// TODO code application logic here
+        System.out.print("entre primeiro numero : ");
+        number1 = input.nextInt(); // le prim o numero forneceido pelo usuario
+        System.out.print("Entre com o segundo numero :");
+        number2 = input.nextInt(); // le o wsegunda numero fornecido pelo  usuario
+        sum = number1 +number2 ;   // soma os numeros , depois armazena o total em sum 
+        System.out.printf("Soma é %d%n" , sum); // exibe a soma
+        media = (number1 + number2)/2 ;
+      //  System.out.print( "Resultado"media) ;
+        
+        
+        
+    } // fim do metodo main
+    
+} // fim da classe 
